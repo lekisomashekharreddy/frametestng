@@ -1,0 +1,18 @@
+<suite name="cross browser testing">
+<test name="chrometest">
+<parameter name="browser" value="chrome">
+</parameter>
+<classes>
+<class name="jan22.Using_Dataprovider">
+</class>
+</classes>
+</test>
+<test name="firefoxtest">
+<parameter name="browser" value="firefox">
+</parameter>
+<classes>
+<class name="jan22.Using_Dataprovider">
+</class>
+</classes>
+</test>
+</suite>
